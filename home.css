@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+
+main {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  background: #eee;
+}
+main h1 {
+  display: block;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  text-align: center;
+}/*# sourceMappingURL=home.css.map */
