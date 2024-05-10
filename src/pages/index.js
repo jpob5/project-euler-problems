@@ -19,6 +19,7 @@ const IndexPage = () => {
           <li>Add menu</li>
           <li>Make Problem component</li>
           <li>Add hooks</li>
+          <li>Migrate to TypeScript</li>
         </ul>
       </div>
       <div className="problem">
