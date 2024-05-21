@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-size: 16px;
+  margin: 0;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  background: #447696;
+  padding: 2rem;
+  
+  h1 {
+    display: block;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  p {
+    margin-top: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .problem {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+    .challenge {
+      padding: 1rem;
+      background: #eee;
+      margin-bottom: 2rem;
+    }
+  }
+}
